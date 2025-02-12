@@ -14,10 +14,10 @@ ALLOWED_HOSTS = ['*']
 #   https://docs.djangoproject.com/en/stable/ref/settings/#databases
 DATABASE = {
     'ENGINE': 'django.db.backends.postgresql',  # Database engine
-    'NAME': 'netboxdb',         # Database name
-    'USER': 'netboxuser',               # PostgreSQL username
-    'PASSWORD': 'netboxpass',           # PostgreSQL password
-    'HOST': 'localhost',      # Database server
+    'NAME': 'netbox_db',         # Database name
+    'USER': 'netbox_user',               # PostgreSQL username
+    'PASSWORD': 'netbox_pass',           # PostgreSQL password
+    'HOST': 'netbox_host',      # Database server
     'PORT': '5433',               # Database port (leave blank for default)
     'CONN_MAX_AGE': 300,      # Max database connection age
 }
@@ -64,7 +64,7 @@ REDIS = {
 # For optimal security, SECRET_KEY should be at least 50 characters in length and contain a mix of letters, numbers, and
 # symbols. NetBox will not run without this defined. For more information, see
 # https://docs.djangoproject.com/en/stable/ref/settings/#std:setting-SECRET_KEY
-SECRET_KEY = 'netboxchave'
+SECRET_KEY = 'netbox_key'
 
 
 #########################
