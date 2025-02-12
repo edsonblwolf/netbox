@@ -76,7 +76,7 @@ SECRET_KEY = 'netbox_key'
 # Specify one or more name and email address tuples representing NetBox administrators. These people will be notified of
 # application errors (assuming correct email settings are provided).
 ADMINS = [
-    ('nome_admin', 'edmail_admin'),
+    ('nome_admin', 'email_admin'),
 ]
 
 # Permit the retrieval of API tokens after their creation.
