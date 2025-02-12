@@ -117,7 +117,7 @@ CSRF_COOKIE_NAME = 'csrftoken'
 DEBUG = False
 
 # Set the default preferred language/locale
-DEFAULT_LANGUAGE = 'en-us'
+DEFAULT_LANGUAGE = 'pt-br'
 
 # Email settings
 EMAIL = {
