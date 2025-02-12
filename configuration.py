@@ -18,7 +18,7 @@ DATABASE = {
     'USER': 'netbox_user',               # PostgreSQL username
     'PASSWORD': 'netbox_pass',           # PostgreSQL password
     'HOST': 'netbox_host',      # Database server
-    'PORT': '5433',               # Database port (leave blank for default)
+    'PORT': 'netbox_porta',               # Database port (leave blank for default)
     'CONN_MAX_AGE': 300,      # Max database connection age
 }
 
