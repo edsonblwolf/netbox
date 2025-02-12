@@ -121,14 +121,14 @@ DEFAULT_LANGUAGE = 'en-us'
 
 # Email settings
 EMAIL = {
-    'SERVER': 'localhost',
-    'PORT': 25,
-    'USERNAME': '',
-    'PASSWORD': '',
-    'USE_SSL': False,
-    'USE_TLS': False,
+    'SERVER': 'netbox_email_host',
+    'PORT': 587,
+    'USERNAME': 'netbox_email_username',
+    'PASSWORD': 'netbox_email_pass',
+    'USE_SSL': True,
+    'USE_TLS': True,
     'TIMEOUT': 10,  # seconds
-    'FROM_EMAIL': '',
+    'FROM_EMAIL': 'netbox_email_from',
 }
 
 # Exempt certain models from the enforcement of view permissions. Models listed here will be viewable by all users and
